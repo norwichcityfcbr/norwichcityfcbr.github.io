@@ -1,0 +1,80 @@
+{
+  "blog_author": "Lucas La Torre",
+  "blog_title": "Norwich FC BR | Brazillian Canaries",
+  "blog_description": "Bem-vindo ao portal oficial da comunidade brasileira do Norwich, saiba mais sobre o clube e a torcida dos Canários no menu acima ou nas opções abaixo. On the ball, City!",
+  "menu_links": [
+    {
+      "name": "Entrevistas",
+      "url": "#",
+      "dropdown": [
+        {
+          "name": "PL Brasil (2021) - Por que eu virei torcedor do Norwich City",
+          "url": "https://premierleaguebrasil.com.br/por-que-eu-virei-torcedor-do-norwich-city/"
+        },
+        {
+          "name": "Entrevista 2",
+          "url": "link-entrevista.com"
+        },
+        {
+          "name": "Entrevista 3",
+          "url": "link-entrevista.com"
+        }
+      ]
+    },
+    {
+      "name": "Global Canaries",
+      "url": "https://www.canaries.co.uk/club/supporter-groups"
+    },
+    {
+      "name": "Lucas La Torre",
+      "link": "#",
+      "dropdown": [
+        {
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at interdum tortor, consectetur sollicitudin.",
+          "img_url": "https://picsum.photos/100"
+        }
+      ]
+    },
+    {
+    "name": "Contato",
+    "url": "#",
+    "dropdown": [
+      {
+        "name": "email@email.com",
+        "url": "mailto:email@email.com"
+      }
+    ]
+  }],
+  "social_links": [
+    {
+      "image": "assets/twitter.svg",
+      "url": "https://twitter.com/norwichcityfcbr"
+    },
+    {
+      "image": "assets/spotify.svg",
+      "url": "https://open.spotify.com/show/2rpymlk9jhzvUx7mzdjnrc"
+    },
+    {
+      "image": "assets/facebook.svg",
+      "url": "https://www.facebook.com/NorwichCityFCBR"
+    },
+    {
+      "image": "assets/instagram.svg",
+      "url": "https://www.instagram.com/NorwichCityFCBR"
+    },
+    {
+      "image": "assets/youtube.svg",
+      "url": "https://www.youtube.com/@NorwichCityFCBrasil"
+    },
+    {
+      "image": "assets/threads.svg",
+      "url": "https://www.threads.net/@norwichcityfcbr"
+    },
+    {
+      "image": "assets/tiktok.svg",
+      "url": "https://www.tiktok.com/@norwichcityfcbr?_t=8oI1MCFxVKP&_r=1"
+    }
+  ],
+  "brazillian_canaries_text": "Texto em construção.",
+  "footer_text": "A comunidade oficial do Norwich é oficializada pelo Norwich City Football Club e não possui fins lucrativos. Qualquer dúvida, entrar em contato com Lucas La Torre, criador dos 'Brazilian Canaries' e membro representante dos torcedores brasileiros no Canaries Trust, pelas redes sociais ou email."
+}
