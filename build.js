@@ -1,13 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const cwd = process.cwd();
-const config = require(`config.json`);
+const config = JSON.stringify(`config.json`);
 const indexFilePath = path.resolve('assets/template.html');
 
 // checking files
 if (!config) throw new Error(`Config file not found: `, config)
 if (!indexFilePath) throw new Error(`Template file not found: `, indexFilePath)
-console.log(`Config file: ${JSON.stringify(config)} Template file: ${indexFilePath}`)
+console.log(`Config file: ${config} Template file: ${indexFilePath}`)
 
 // building links
 
