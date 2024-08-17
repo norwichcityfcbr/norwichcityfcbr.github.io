@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cwd = process.cwd();
 const config = require(`${cwd}/config.json`);
-const indexFilePath = path.resolve(`${cwd}`, '/template.html');
+const indexFilePath = path.resolve(`${cwd}`, 'template.html');
 
 // checking files
 console.log(`FILES: Config file: ${JSON.stringify(config)}\n\n Template file: ${indexFilePath}`)
