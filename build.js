@@ -1,13 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 const cwd = process.cwd();
-const config = JSON.stringify(`config.json`);
-const indexFilePath = path.resolve('assets/template.html');
+const config = require(`${cwd}/config.json`);
+const indexFilePath = path.resolve(`${cwd}`, 'assets/template.html');
 
 // checking files
-if (!config) throw new Error(`Config file not found: `, config)
-if (!indexFilePath) throw new Error(`Template file not found: `, indexFilePath)
-console.log(`Config file: ${config} Template file: ${indexFilePath}`)
+console.log(`FILES: Config file: ${JSON.stringify(config)}\n\n Template file: ${indexFilePath}`)
+
+if (!fs.existsSync(indexFilePath)){
+  console.error(`FAILED: File "template.html" not found on the current directory.`);
+  process.exit(1);
+}
 
 // building links
 
@@ -55,8 +58,8 @@ index = '<!-- This is an automatically generated file, do not edit it directly -
 // -------------------------------------- done
 
 try {
-  fs.writeFileSync('./index.html', index);
-  console.log('\nBlog building done');
+  fs.writeFileSync(path.resolve(`${cwd}`, 'index.html'), index);
+  console.log('\ Building done');
 } catch(err) {
-  console.oog('\n Blog building error: ', err)
+  console.oog('\n Building error: ', err)
 }
