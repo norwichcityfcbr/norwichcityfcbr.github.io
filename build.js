@@ -1,8 +1,6 @@
 const fs = require('fs');
-const path = require('path');
-const cwd = process.cwd();
-const config = require(`${cwd}/config.json`);
-const indexFilePath = path.resolve(`${cwd}`, 'assets/template.html');
+const config = require('./config.json');
+const indexFilePath = './assets/template.html';
 
 // building links
 
@@ -49,5 +47,9 @@ index = '<!-- This is an automatically generated file, do not edit it directly -
 
 // -------------------------------------- done
 
-fs.writeFileSync(path.resolve(`${cwd}`, 'index.html'), index);
-console.log('\nBlog building done');
+try {
+  fs.writeFileSync('./index.html', index);
+  console.log('\nBlog building done');
+} catch(err) {
+  console.oog('\n Blog building error: ', err)
+}
