@@ -7,6 +7,7 @@ const indexFilePath = path.resolve(`${cwd}`, 'assets/template.html');
 // checking files
 if (!config) throw new Error(`Config file not found: `, config)
 if (!indexFilePath) throw new Error(`Template file not found: `, indexFilePath)
+console.log(`Config file: ${config} Template file: ${indexFilePath}`)
 
 // building links
 
