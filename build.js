@@ -53,11 +53,19 @@ for(key in config) {
   index = index.replace(new RegExp(`{{${key}}}`, 'g'), config[key] ? config[key] : '');
 }
 
-index = '<!-- This is an automatically generated file, do not edit it directly -->\n' + index;
+const date = new Date().toLocaleString('pt-br')
+
+index = `<!-- This is an automatically generated file, do not edit it directly -->\n
+<!-- Last updated in ${date} -->\n\n` + index;
 
 // -------------------------------------- done
 
 try {
+  if (!fs.existsSync(path.resolve(`${cwd}`, 'index.html'))){
+    console.error(`FAILED: File "index.html" not found on the current directory.`);
+    process.exit(1);
+  }
+
   fs.writeFileSync(path.resolve(`${cwd}`, 'index.html'), index);
   console.log('\ Building done');
 } catch(err) {
