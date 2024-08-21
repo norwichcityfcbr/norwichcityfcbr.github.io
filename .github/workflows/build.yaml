@@ -11,8 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Update Website
+      
+      - name: Install Nodejs
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-      - run: node build.js
+          
+      - name: Build Site
+        run: node build.js
