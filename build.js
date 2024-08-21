@@ -69,5 +69,5 @@ try {
   fs.writeFileSync(path.resolve(`${cwd}`, 'index.html'), index);
   console.log('\ Building done');
 } catch(err) {
-  console.oog('\n Building error: ', err)
+  console.log('\n Building error: ', err)
 }
