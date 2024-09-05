@@ -19,9 +19,9 @@ jobs:
       - name: Update pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: . # root 
+          path: . # Or whatever is correct for you
 
-  # i should make the changes then recommit into the repo
+
   deploy:
     needs: build
     permissions:
@@ -35,6 +35,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
       - name: Commit new page
         run: |
           GIT_STATUS=$(git status --porcelain)
@@ -42,5 +46,5 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add docs/
-          if [ "$GIT_STATUS" != "" ]; then git commit -m "AUTO: rebuild site."; fi
+          if [ "$GIT_STATUS" != "" ]; then git commit -m "AUTO: Updated site."; fi
           if [ "$GIT_STATUS" != "" ]; then git push; fi
