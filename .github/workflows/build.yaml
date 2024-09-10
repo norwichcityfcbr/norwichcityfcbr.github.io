@@ -22,9 +22,14 @@ jobs:
           ref: ${{ github.head_ref }}
       - run: node build.js
         working-directory: .
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
       - name: Commit new changes
+        if: steps.git-check.outputs.modified == 'true'
         run: |
-          git config user.name 'github-actions[bot]'
+          git config user.name 'norwichcityfcbr'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           GIT_STATUS=$(git status --porcelain)
           echo $GIT_STATUS
