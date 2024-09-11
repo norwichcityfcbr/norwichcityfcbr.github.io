@@ -33,6 +33,7 @@ jobs:
           git config user.email 'lucasjorgedclt@gmail.com'
           git add .
           git commit -am "AUTO: Updated site."
+          git push
       - name: Update pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
