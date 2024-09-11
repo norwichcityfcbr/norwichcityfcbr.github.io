@@ -29,8 +29,8 @@ jobs:
       - name: Commit new changes
         if: steps.git-check.outputs.modified == 'true'
         run: |
-          git config user.name 'norwichcityfcbr'
-          git config user.email 'lucasjorgedclt@gmail.com'
+          git config --global user.name 'norwichcityfcbr'
+          git config --global user.email 'lucasjorgedclt@gmail.com'
           git add .
           git commit -am "AUTO: Updated site."
           git push
