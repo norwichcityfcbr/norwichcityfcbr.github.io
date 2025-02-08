@@ -1,7 +1,8 @@
 {
   "blog_author": "Lucas La Torre",
   "blog_title": "Norwich City FC BR | Brazilian Canaries",
-  "blog_description": "Bem-vindo ao portal oficial da comunidade brasileira do Norwich, saiba mais sobre o clube e a torcida dos Canários no menu acima ou nas opções abaixo. On the ball, City!",
+  "blog_description": "Bem-vindo ao portal oficial da comunidade brasileira do Norwich, saiba mais sobre o clube e a torcida dos Canários no menu acima ou nas opções abaixo. 
+  On the ball, City!",
   "menu_links": [
     {
       "name": "Entrevistas",
@@ -12,15 +13,15 @@
           "url": "https://premierleaguebrasil.com.br/por-que-eu-virei-torcedor-do-norwich-city/"
         },
         {
-          "name": "PL Brasil (2021) - Por que eu virei torcedor do Norwich City",
+          "name": "Norwich City FC (2019) - Global Canaries Event - Por que eu virei torcedor do Norwich City",
           "url": "https://premierleaguebrasil.com.br/por-que-eu-virei-torcedor-do-norwich-city/"
         },
         {
-          "name": "Entrevista 3",
-          "url": "link-entrevista.com"
+          "name": "PL Brasil (2021) - Por que eu virei torcedor do Norwich City",
+          "url": "https://www.canaries.co.uk/News/2018/october/canary-citizens-brazil/"
         },
         {
-          "name": "Entrevista 4",
+          "name": "Norwich City FC (2018) - Pre-Global Canaries interview",
           "url": "link-entrevista.com"
           },
         {
@@ -52,6 +53,10 @@
         {
           "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at interdum tortor, consectetur sollicitudin.",
           "img_url": "https://instagram.fsdu11-1.fna.fbcdn.net/v/t51.2885-15/57294357_1894204450685141_430826144659169099_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi44Mjh4ODI4LnNkci5mMjg4NSJ9&_nc_ht=instagram.fsdu11-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=poPRO2kJULoQ7kNvgFalWLK&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MjAyNTgyODUwODQ0MTY1NTU2Nw%3D%3D.2-ccb7-5&oh=00_AYBwKnErvPROhQJO-S44eKSHdxvMAS3C1Jb5KUL1vjC2pw&oe=66C5C3A3&_nc_sid=8f1549"
+    },
+        {
+          "name": "Entrevista 8",
+          "url": "link-entrevista.com"
         }
       ]
     },
