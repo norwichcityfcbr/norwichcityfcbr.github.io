@@ -64,8 +64,8 @@
     "url": "#",
     "dropdown": [
       {
-        "name": "email@email.com",
-        "url": "mailto:email@email.com"
+        "name": "Clique aqui e copie o e-mail",
+        "url": "mailto:braziliancanary@gmail.com"
       }
     ]
   }],
@@ -99,6 +99,6 @@
       "url": "https://www.tiktok.com/@norwichcityfcbr?_t=8oI1MCFxVKP&_r=1"
     }
   ],
-  "brazilian_canaries_text": "Texto em construção.",
+  "brazilian_canaries_text": "A comunidade brasileira do Norwich - os Brazilian Canaries - existe desde 2009 e é sem fins lucrativos. O objetivo é unir torcedores do Norwich pelo Brasil, América Latina ou falantes da lingua portuguesa para nos aproximarmos cada vez mais do clube que amamos. Seguimos as filosofias do clube que são: Crescimento, Integridade, Pertencimento, Resiliência, Orgulho e Comprometimento. Para mais informações entre em contato por e-mail ou selecione nossas redes sociais acima.",
   "footer_text": "A comunidade oficial do Norwich é oficializada pelo Norwich City Football Club e não possui fins lucrativos. Qualquer dúvida, entrar em contato com Lucas La Torre, criador dos 'Brazilian Canaries' e membro representante dos torcedores brasileiros no Canaries Trust, pelas redes sociais ou email."
 }
