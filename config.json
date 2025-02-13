@@ -1,7 +1,7 @@
 {
   "blog_author": "Lucas La Torre",
   "blog_title": "Norwich City FC Brasil | Brazilian Canaries",
-  "blog_description": "Bem-vindo ao site oficial da comunidade brasileira do Norwich, acesse o menu acima ou as opções abaixo para saber mais sobre o Canários, os Brazilian Canaries e mais. On the ball, City!",
+  "blog_description": "Bem-vindo ao site oficial da comunidade brasileira do Norwich, acesse o menu acima ou as opções abaixo para saber mais sobre os Canários, os Brazilian Canaries e mais. On the ball, City!",
   "menu_links": [
     {
       "name": "Entrevistas",
@@ -51,7 +51,7 @@
       "dropdown": [
         {
           "bio": "Torcedor desde 2005, em 2009 decidi criar o Norwich City FC Brasil, inicialmente era algo só, onde apenas eu formava a torcida do clube, hoje temos Canários espalhados pelo Brasil. Em 2011, o clube reconheceu a comunidade. Já em 2018 veio o convite para conhecer a cidade e o Carrow Road. No ano seguinte, em 2019, realizei meu sonho. Agora, 5 anos depois, retornarei a Norwich, junto com outros membros da comunidade para ver o clube que amo outra vez. Sobre mim: to chegando nos 30, sou formado em Comunicação Social, habilitado em Jornalismo, fiz uns cursos de várias coisas e sou carioca, meu time local é o Flamengo.",
-          "img_url": "https://instagram.fsdu11-1.fna.fbcdn.net/v/t51.2885-15/57294357_1894204450685141_430826144659169099_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi44Mjh4ODI4LnNkci5mMjg4NSJ9&_nc_ht=instagram.fsdu11-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=poPRO2kJULoQ7kNvgFalWLK&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MjAyNTgyODUwODQ0MTY1NTU2Nw%3D%3D.2-ccb7-5&oh=00_AYBwKnErvPROhQJO-S44eKSHdxvMAS3C1Jb5KUL1vjC2pw&oe=66C5C3A3&_nc_sid=8f1549"
+          "img_url": "assets/instagram-pic.png"
     },
         {
           "name": "Global Canaries - Lucas La Torre on @NorwichCityFC official account: ",
@@ -103,6 +103,8 @@
       "url": "https://www.tiktok.com/@norwichcityfcbr?_t=8oI1MCFxVKP&_r=1"
     }
   ],
+  "youtube_code_1": "ZRRUiqv68TQ?si=3Z18FHhiSYTNQ5Rz",
+  "youtube_code_2": "-LNmNITnCeE?si=6xLIN-ZHibJkG_Ci",
   "brazilian_canaries_text": "A comunidade brasileira do Norwich - os Brazilian Canaries - existe desde 2009 e é sem fins lucrativos. O objetivo é unir torcedores do Norwich pelo Brasil, América Latina ou falantes da lingua portuguesa para nos aproximarmos cada vez mais do clube que amamos. Seguimos as filosofias do clube que são: Crescimento, Integridade, Pertencimento, Resiliência, Orgulho e Comprometimento. Para mais informações entre em contato por e-mail ou selecione nossas redes sociais acima.",
   "footer_text": "Os Brazilian Canaries são oficializados pelo Norwich City Football Club desde 2011 e tem total apoio do clube para realizar suas atividades."
 }
